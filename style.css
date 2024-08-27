@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-gris-pintado_53876-94041.jpg?w=740&t=st=1724768004~exp=1724768604~hmac=b5f42926862144f2698bbd419efbe2dc35e6a17c95a270ebe8df91d1bc23229c=jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  padding: 15px;
+  width: 50vw;
+  margin: auto;
+  color:rgb(25, 75, 240)
+  
+
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(0, 0, 0);
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+
+  background: linear-gradient(180deg, #a4ddfa 0%, #193344 100%);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(34, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+  color:rgb(172, 0, 0)
+}
+
+.wrapper {
+  min-height: calc(100% - 3rem);
+}
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #93d2eb;
+  color: white;
+  height: 3rem;
+}
+
+.label{
+  color: rgb(252, 252, 252);
+}
